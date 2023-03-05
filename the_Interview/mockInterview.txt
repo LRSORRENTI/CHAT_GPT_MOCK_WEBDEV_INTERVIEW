@@ -1,104 +1,332 @@
-hello
 
-Hello! How can I assist you today?
+=====================
+MOCK WEBDEV INTERVIEW
+=====================
 
+=============================================
+Quick note I will be abbreviating each 
+paragraph with an L for Luke (me) and GPT for 
+chatGPT, as well as sectioning off each 
+question and answer with "====" to hopefully 
+improve readability
+=============================================
 
-
-
-Luke Sorrenti
-Are you familiar with jr web developer interview questions?
-Yes, I am familiar with junior web developer interview questions. Junior web developer interviews usually focus on assessing a candidate's knowledge and skills in web development basics, programming languages, and problem-solving abilities. Common questions asked in junior web developer interviews include:
-
-What is your experience with HTML/CSS/JavaScript?
-Can you explain the difference between front-end and back-end development?
-What is your experience with a specific programming language, such as PHP or Python?
-Can you explain the concept of responsive design?
-What is your experience with version control, such as Git?
-Have you worked with any web development frameworks, such as React or Angular?
-How do you ensure the security of a web application?
-Can you walk me through your process for debugging code?
-Have you worked with databases before? Which ones?
-Can you give an example of a particularly challenging project you've worked on and how you overcame any obstacles during the development process?
-These are just a few examples of the types of questions you might encounter in a junior web developer interview. The specific questions will depend on the company and the interviewer, but they will likely focus on assessing your technical knowledge and problem-solving abilities.
+=============================================
+L: Hello
 
 
+GPT: Hello! How can I assist you today?
+
+L: Are you familiar with jr web developer 
+interview questions?
 
 
-Luke Sorrenti
-If I give answers to each of those ten, can you correct me or tell me if that's the correct answer?
-Yes, I can certainly help you with that! Please feel free to provide your answers, and I'll do my best to provide feedback and corrections if necessary.
+GPT: Yes, I am familiar with 
+junior web developer interview questions.
+
+ Junior web developer interviews usually
+  focus on assessing a candidate's knowledge
+   and skills in web development basics,
+    programming languages, and
+     problem-solving abilities.
+     
+ Common questions asked in
+ junior web developer interviews include:
+
+1. What is your experience with HTML/CSS/JavaScript?
+
+2. Can you explain the difference between 
+front-end and back-end development?
+ 
+3. What is your experience with a 
+specific programming language, such as PHP or Python?
+
+4. Can you explain the concept 
+of responsive design?
+
+5. What is your experience with 
+version control, such as Git?
+
+6. Have you worked with any web
+ development frameworks, such as React or Angular?
+
+7. How do you ensure the 
+security of a web application?
+
+8. Can you walk me through
+ your process for debugging code?
+
+9. Have you worked with 
+databases before? Which ones?
+
+10. Can you give an example of
+ a particularly challenging 
+ project you've worked on and how you 
+ overcame any obstacles during the development
+  process?
+
+These are just a few examples of 
+the types of questions you might encounter 
+in a junior web developer interview.
+
+ The specific questions will depend
+  on the company and the interviewer,
+   but they will likely focus on
+    assessing your technical
+     knowledge and problem-solving abilities.
+
+====================================================
+
+L: If I give answers to each of those ten,
+ can you correct me or tell me 
+ if that's the correct answer?
+
+GPT: Yes, I can certainly help you with 
+that! Please feel free to provide your answers, 
+and I'll do my best to provide feedback 
+and corrections if necessary.
+
+====================================================
+
+
+L: 
+
+1. What is your experience with HTML/CSS/JavaScript?
+
+So for number 1, I am 
+familiar with the basics of html css and js,
+ html is the markup for the website standing
+  for hypertext markup language, and it's where
+   all the divs,  class names and id names for 
+   html elements will be for selection in CSS 
+   and JS with things like '#' for id and '.' 
+   for class selectos in css, 
+   and document.getElementById / ClassName
+    / querySelector for JS
+    
+     CSS  or cascading style sheets
+      is used to style the page or pages
+       using selectors from the html file, 
+       and it can be easy to learn and difficult
+        to master, and javascript is the standard
+         web scripting language for dynamic pages,
+          allowing for stuff like dropdowns, button onclick events,
+          any dynamic functionality is done with JS for the most 
+          part, although some CSS wizards out there 
+          can do some incredible things, 
+          but it's how the web gets it's functionality.
+
+
+GPT: Your explanation for question 1 is generally correct.
+ HTML is a markup language that provides the structure of
+  a web page, including headings, paragraphs, images, 
+  and links. CSS is used to style and format the content
+   on a web page, including fonts, colors, and layout. 
+   
+   JavaScript is a scripting language that
+    is used to make web pages interactive 
+    and dynamic, allowing for user input, 
+    animations, and more.
+
+Regarding your explanation of CSS selectors, 
+you are correct that "#" and "." are used to 
+select elements by ID and class, respectively.
+
+ However, "document.getElementById" is a JavaScript
+  method used to select an element by its ID,
+   not a CSS selector. Additionally, 
+   "document.getElementsByClassName" is used to 
+   select elements by their class name in JavaScript.
+
+Overall, your explanation is good, 
+but you may want to clarify some of
+ the details to ensure accuracy.
+
+===========================================================
+
+L: Thanks ready for answer for number 2?
+
+GPT: Yes, please go ahead with your answer for question 2.
+
+2. Can you explain the difference between 
+front-end and back-end development?
+ 
+
+L:  Front end is what the user sees 
+and interacts with, usually including 
+the main html css and JS, and maybe SCSS
+ or React.js or any other tools and
+  libraries like webpack, jquery 
+ and frameworks that make front 
+ end development more seamless
+
+ It connects to the backend usually
+  with an API that acts as a middle man,
+   then the backend will see what the
+    front end needs, prepare and finalize them,
+     maybe with node.js or another backend language
+      / framework / library depending on what's needed, 
+      then return what the frontend requires.
+      
+       Also usually consists of a relational
+        database like mongo db, firebase or a query
+         database like mySQL or postgreSQL 
+
+          Overall the frontend is what the user
+           sees, using HTML, 
+           CSS or SASS or BOOTSTRAP / Tailwind CSS 
+           for styling, then maybe is uses 
+           something like express.js a web
+            framework for the middleware, then React.js 
+            or maybe not a framework or JS library,
+             then something like node.js and mongo DB on the backend
+
+GPT: Your explanation for question 2 is
+ generally correct. 
+ 
+ Front-end development refers to the part
+  of web development that involves creating
+   the user interface and experience on the
+    client-side using technologies such as
+     HTML, CSS, and JavaScript. 
+     
+     The back-end, on the other hand, refers to the part
+       of web development that involves 
+       server-side programming, including 
+       data storage, retrieval, and processing, 
+       and typically uses technologies such as 
+       Node.js, Ruby on Rails, or Python Flask.
+
+You are correct that front-end
+ development often involves using
+  libraries and frameworks,
+   such as React or Vue.js, to simplify
+    the development process. 
+    
+    Similarly, you are correct that 
+    the back-end often involves
+     using databases, such as MongoDB or MySQL,
+      to store and retrieve data.
+
+Overall, your explanation 
+is good and provides a solid
+ understanding of front-end and back-end development.
+
+===================================================
+
+L: Ready for the answer to number 3?
+
+GPT: Yes, please go ahead with your answer for question 3.
+
+L: I am familiar with JavaScript and TypeScript, 
+I am no expert or master by any stretch but am decently
+ knowledgeable, I have some experience
+  with things like webpack bundles and react.js, 
+  however I am not familiar with full 
+  frameworks like angular.js, 
+  I am also aware that react.js is a library, 
+  and when used in conjunction with things 
+  like remix or redux, it becomes what's 
+  known as an ecosystem framework,
+  
+   I am not familiar with PHP though 
+   I do know laravel is a framework 
+   that utilizes it, and I know
+    wordpress is built on it,
+     but I still need to learn PHP,
+      same with python, I know python 
+      is heavily used in machine learning
+       and ai, but can be used with django 
+       and flask for web development
 
 
 
+GPT: Your answer for question 3 is generally 
+correct. You are correct that JavaScript and 
+TypeScript are popular programming languages
+ used in web development. 
+ 
+ You are also correct that React.js
+  is a library, not a full framework,
+   and that it can be used with
+    Redux to form an ecosystem framework.
 
-Luke Sorrenti
-So for number 1, I am familiar with the basics of html css and js, html is the markup for the website standing for hypertext markup language, and it's where all the divs,  class names and id names for html elements will be for selection in CSS and JS with things like # and . for css, and document.getElementById / ClassName for JS, CSS  or cascading style sheets is used to style the page or pages using selectors from the html file, and it can be easy to learn and difficult to master, and javascript is the standard web scripting language for dynamic pages, allowing for stuff like dropdowns, button onclick events, it's how the web gets it's functionality
-Your explanation for question 1 is generally correct. HTML is a markup language that provides the structure of a web page, including headings, paragraphs, images, and links. CSS is used to style and format the content on a web page, including fonts, colors, and layout. JavaScript is a scripting language that is used to make web pages interactive and dynamic, allowing for user input, animations, and more.
+You are correct that Laravel
+ is a PHP framework used for
+  web development, and that 
+  WordPress is built on top of PHP. 
+  
+  Python is indeed a popular language
+   in data science, machine learning,
+    and AI, and can also be used for
+     web development with frameworks
+      like Django and Flask.
 
-Regarding your explanation of CSS selectors, you are correct that "#" and "." are used to select elements by ID and class, respectively. However, "document.getElementById" is a JavaScript method used to select an element by its ID, not a CSS selector. Additionally, "document.getElementsByClassName" is used to select elements by their class name in JavaScript.
+Overall, your answer is good and 
+shows a solid understanding of 
+the programming languages and
+ frameworks commonly used in web development.
 
-Overall, your explanation is good, but you may want to clarify some of the details to ensure accuracy.
-
-
-
-
-Luke Sorrenti
-Thanks ready for number 2?
-Yes, please go ahead with your answer for question 2.
-
-
-
-
-Luke Sorrenti
-Front end is what the user sees and interacts with, usually including the main html css and JS, and maybe SCSS or React.js or any other libraries like webpack and frameworks that make front end development more seamless, and it connects to the backend usually with an API that acts as a middle man, then the backend will see what the front end needs, prepare and finalize them, maybe with node.js or another backend language / framework, then return what the frontend requires, also usually consists of a relational database like mongo db, or a query database like mySQL or postgresQL, overall the frontend is what the user sees, maybe using HTML, CSS or SASS or BOOTSTRAP, then maybe is uses something like express.js a web framework for the middleware, then React.js or maybe not a framework or JS library, then something like node.js and mongo DB on the backend
-Your explanation for question 2 is generally correct. Front-end development refers to the part of web development that involves creating the user interface and experience on the client-side using technologies such as HTML, CSS, and JavaScript. The back-end, on the other hand, refers to the part of web development that involves server-side programming, including data storage, retrieval, and processing, and typically uses technologies such as Node.js, Ruby on Rails, or Python Flask.
-
-You are correct that front-end development often involves using libraries and frameworks, such as React or Vue.js, to simplify the development process. Similarly, you are correct that the back-end often involves using databases, such as MongoDB or MySQL, to store and retrieve data.
-
-Overall, your explanation is good and provides a solid understanding of front-end and back-end development.
-
-
-
-
-Luke Sorrenti
-ready for number 3?
-Yes, please go ahead with your answer for question 3.
+=================================================
 
 
+L: Ready for the answer to number 4?
+
+GPT: Yes, please go ahead with your
+ answer for question 4.
+
+L: Responsive design is
+ a core design pattern for well made 
+ and aesthetically pleasing websites, 
+ it consists of breakpoints for certain
+  divs or html elements, as well as 
+  changing the size of headers, 
+  collapsing navbars and other components,
+   usually all of these components will have
+    designated breakpoints so extra small,
+     small, medium, large, ultra wide
+      screen sizes, and for the full responsiveness,
+       all of the above must be kept
+        in mind when optimizing for
+        aesthetically pleasing and 
+         responsive web design
 
 
-Luke Sorrenti
-I am familiar with JavaScript and TypeScript, I am no expert or master but am decently knowledgeable, I have some experience with libraries like webpack and react.js, however I am not familiar with full frameworks like angular.js, I am aware that react.js is a library, and when used in conjunction with things like remix or redux, it becomes what's known as an ecosystem framework, I am not familiar with PHP though I do know laravel is a framework that utilizes it, and I know wordpress is built on it, but I still need to learn PHP, same with python, I know python is heavily used in machine learning and ai, but can be used with django and flask for web development
-Your answer for question 3 is generally correct. You are correct that JavaScript and TypeScript are popular programming languages used in web development. You are also correct that React.js is a library, not a full framework, and that it can be used with Redux to form an ecosystem framework.
+GPT: Your answer for question 4 is
+ generally correct. Responsive web 
+ design is indeed a key design pattern 
+ for modern websites, which involves
+  creating websites that adapt and 
+  respond to different screen sizes 
+  and devices. This can be achieved
+   through the use of breakpoints, 
+   which are specific points at which
+    the design layout changes, and 
+    through the use of fluid and flexible
+     design elements that can adjust
+      to fit different screen sizes.
 
-You are correct that Laravel is a PHP framework used for web development, and that WordPress is built on top of PHP. Python is indeed a popular language in data science, machine learning, and AI, and can also be used for web development with frameworks like Django and Flask.
+You are also correct that 
+responsive design involves 
+changing the size of headers,
+ collapsing navigation bars, 
+ and other components to optimize 
+ the user experience on different devices.
+ 
+  To ensure full responsiveness, 
+  designers must consider all 
+  possible screen sizes and optimize
+   their designs for different breakpoints.
 
-Overall, your answer is good and shows a solid understanding of the programming languages and frameworks commonly used in web development.
+Overall, your answer is 
+good and shows a solid 
+understanding of the principles of responsive design.
 
+========================================================
 
+L: Thanks, ready for my answer to question 5?
 
-
-Luke Sorrenti
-Ready for number 4?
-Yes, please go ahead with your answer for question 4.
-
-
-
-
-Luke Sorrenti
-Responsive design is a core design pattern for well made and aesthetically pleasing websites, it consists of breakpoints for certain divs or html elements, as well as changing the size of headers, collapsing navbars and other components, usually all of these components will have designated breakpoints so extra small, small, medium, large, ultra wide screen sizes, and for the full responsiveness, all of the above must be kept in mind when optimizing for beautiful responsive web design
-Your answer for question 4 is generally correct. Responsive web design is indeed a key design pattern for modern websites, which involves creating websites that adapt and respond to different screen sizes and devices. This can be achieved through the use of breakpoints, which are specific points at which the design layout changes, and through the use of fluid and flexible design elements that can adjust to fit different screen sizes.
-
-You are also correct that responsive design involves changing the size of headers, collapsing navigation bars, and other components to optimize the user experience on different devices. To ensure full responsiveness, designers must consider all possible screen sizes and optimize their designs for different breakpoints.
-
-Overall, your answer is good and shows a solid understanding of the principles of responsive design.
-
-
-
-
-Luke Sorrenti
-Thanks, ready for my answer to question 5?
-Yes, please go ahead with your answer for question 5.
+GPT: Yes, please go ahead with your answer for question 5.
 
 
 
