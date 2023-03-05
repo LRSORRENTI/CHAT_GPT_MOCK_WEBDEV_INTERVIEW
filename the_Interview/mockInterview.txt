@@ -326,141 +326,419 @@ understanding of the principles of responsive design.
 
 L: Thanks, ready for my answer to question 5?
 
+5. What is your experience with 
+version control, such as Git?
+
 GPT: Yes, please go ahead with your answer for question 5.
 
-
-
-
-Luke Sorrenti
-Git is an essential and almost universally used VCS, it's used to make branches, commits, and there are hundreds of git commands, it's easy to learn but hard to master, the general workflow is, git init in an empty folder or repo, which will set up a master branch, then after adding boilerplate and set up, you would type git switch -c featurebranch for maybe a navbar or hero content or footer, then when you've completed the component, you can try to merge back into master or whichever branch you need to merge into, and see if there are any merge conflicts that need to be resolved, git is powerful and when used with DVCS like github, it's an amazing an awesome tool that can be used for web development and programming in general
-Your answer for question 5 is mostly correct. Git is indeed an essential version control system used in web development and programming in general. It is used to track changes to code over time, make branches, commits, and merge changes from multiple developers working on the same codebase.
-
-You are correct that the general workflow of Git involves initializing a repository with git init, creating feature branches with git switch -c, and merging changes back into the master branch. Git is also used with remote repositories, such as GitHub or GitLab, which allow for collaboration with other developers.
-
-However, it's worth noting that Git does not set up a "master" branch by default - it's up to the user to create and name their initial branch. Additionally, while Git has hundreds of commands, most developers only use a handful of them on a regular basis.
-
-Overall, your answer shows a good understanding of the basic principles of Git and its use in web development.
-
-
-
-
-Luke Sorrenti
-Ready for my answer to number 6?
-Yes, please proceed with your answer to question 6.
-
-
-
-
-Luke Sorrenti
-In regards to frameworks like React, yes I am familiar, React is a component based library where there's a single html file with a root div, then you used root.render and the component file which is housed separately to load the content on the page, making websites faster and more dynamic without having to refresh the page as much, there is also state in react which refers to the current state of the web app, and react also utilizes things like remix and redux to become a full ecosystem framework, there is specific syntax called jsx, or html in a js file, and tsx for html in a typescript file, I am not an expert by any means, but I have build simple web apps using the MERN stack which includes react
-Great job! Your answer to question 6 is correct. React is a popular component-based library that allows you to build dynamic web applications by using reusable components. The use of state management in React enables the components to maintain their state and update only the necessary parts of the web page. JSX is a syntax extension that allows you to write HTML-like code in JavaScript files, and TypeScript is a typed superset of JavaScript that adds optional static type checking to the language. Additionally, MERN stack, which includes MongoDB, Express, React, and Node.js, is a popular technology stack for building full-stack web applications with JavaScript.
-
-
-
-
-Luke Sorrenti
-Ready for my answer to question 7?
-Sure, go ahead!
-
-
-
-
-Luke Sorrenti
-To ensure the security of a website, one must follow current safety protocols, HTTPS is the new standard, also keeping secure information inaccessible to scripters that may want to harvest or scrape sensitive user data is a priority, I am not an expert in security but I am aware that keeping things compartmentalized and inaccessible to scripters and hackers is a must, I know I have much more to learn in web security
-That's a good answer. Indeed, securing a website is a complex task that requires a thorough understanding of web security concepts and best practices. In addition to HTTPS and keeping sensitive data inaccessible to malicious actors, some other security measures that are commonly used include input validation, user authentication and authorization, server hardening, and regular security audits and updates. It's always a good idea to stay updated on the latest security trends and practices to ensure the safety of your website and its users.
-
-
-
-
-Luke Sorrenti
-Was my answer acceptable or a little lacking do you think?
-Your answer provides a general understanding of web security and covers some important points such as using HTTPS and protecting sensitive user data from scripters and hackers. However, it is a bit brief and lacks specific details on how to implement security measures. It would be helpful to mention some specific techniques such as using secure coding practices, regularly updating software and plugins, implementing firewalls and intrusion detection systems, and conducting regular security audits. Additionally, mentioning common vulnerabilities such as SQL injection, cross-site scripting (XSS), and cross-site request forgery (CSRF) would demonstrate a deeper understanding of web security.
-
-
-
-
-Luke Sorrenti
-Thanks ready for the next answer for question 8?
-Sure, I'm ready!
-
-
-
-
-Luke Sorrenti
-Debugging code, at least in the browser can be a challenging and rewarding task, usually consists of opening the debugger and dev tools in the browser however I believe there are other debugging software available, you set breakpoints in the debugger, analyze the network tab, see the HTTP requests and if all of that looks good, start working your way through the code to find the bug
-Your answer is generally correct. Debugging code is a process of identifying and fixing errors in the code. Using browser developer tools and other debugging software can help developers to isolate the source of a problem and fix it. Setting breakpoints, analyzing network requests, and tracing through code are all helpful techniques for debugging code. Additionally, logging and console output can be useful for understanding the state of the code at various points in its execution.
-
-
-
-
-Luke Sorrenti
-Was my answer a little lack luster, or at least acceptable?
-Your answer is acceptable. You mentioned the basic steps for debugging code in the browser, such as setting breakpoints, analyzing the network tab, and working through the code to find the bug. It is a concise and accurate answer.
-
-
-
-
-Luke Sorrenti
-Okay ready for my answer to question 9?
-Sure, go ahead!
-
-
-
-
-Luke Sorrenti
-I am familiar with relational databases like mongo db, which structure sort've looks like JSON objects, they are relational in nature and are queried as such, I however am less familiar with mySQL and postgresQL both of which are query databases that use SQL to query and return desired data, I am aware I must learn SQL but I am only familiar with relational databases at the moment
-Your answer is mostly correct. Just one small correction: MongoDB is actually a non-relational or NoSQL database, unlike MySQL and PostgreSQL which are relational databases that use SQL to query data. MongoDB uses a document-based model and can store data in a more flexible and scalable way compared to traditional relational databases. But your understanding of how they are queried and their relational nature is correct.
-
-
-
-
-Luke Sorrenti
-Ah I see, thanks for the correction, would you say I got that answer wrong then?
-Not necessarily wrong, but it could be more precise. SQL is a language used to interact with relational databases, but it's not exclusive to MySQL and PostgresQL. There are other relational databases that use SQL as well, such as Oracle, Microsoft SQL Server, and SQLite. It's important to be precise when discussing technical topics, but overall your answer shows that you have a general understanding of relational databases and SQL.
-
-
-
-
-Luke Sorrenti
-Thanks, ready for the final answer for question 10?
-Sure, go ahead!
-
-
-
-
-Luke Sorrenti
-The project that has the most meaning to me was built using MERN, my mother had a devastating stroke and has a condition called aphasia, I built a web app that helps with her reading and speech, you see stroke victims must practice speech therapy regularly and most aphasia websites are paid, so I built her one where there will be pictures on the screen and she must say the name of what's in them, and another section on typing spoken words, it's a project that has great meaning to me
-That's a very meaningful project! It's great to hear that you were able to use your skills to create something that could help your mother with her therapy. The fact that it was a personal project that had such a direct impact on someone's life is truly inspiring. Keep up the great work!
-
-
-
-
-Luke Sorrenti
-Overall, would you say that the answers given were sufficient for a jr developer position? I am aware a technical interview with maybe code section using screen share is common for interviews
-Based on your answers, it appears that you have a basic understanding of web development concepts and technologies. While your answers may not have been in-depth or comprehensive, they demonstrate a willingness to learn and a familiarity with common web development practices.
-
-For a junior developer position, your level of knowledge may be appropriate. However, it is important to note that technical interviews may vary and could involve more specific and complex questions, as well as coding exercises to test your practical skills.
-
-Overall, it is important to be honest about your level of knowledge and experience during the interview process. If you are unsure of an answer, it is better to admit that and demonstrate a willingness to learn and improve.
-
-
-
-
-Luke Sorrenti
-How skilled in a technical interview of this nature would a prospective web developer need to be in your estimation? I am not an expert in JS or CSS but can hold my own with the help of google and stackoverflow when needed, could you give examples?
-In a technical interview, a prospective web developer should have a solid understanding of the fundamentals of web development, such as HTML, CSS, and JavaScript. They should also be able to solve problems related to algorithms and data structures, and understand the basics of how web applications work.
+L: Git is an essential and almost universally used VCS,
+ it's used to make branches, commits, to create a 
+ safety net, as well as a vital workflow
+ 
+There are hundreds of git commands, stuff like 
+git checkout #oldcommitnum, or git rebase,
+git's easy tolearn but there are a 
+huge number of commands, 
+ the general workflow is,
+  git init in an empty folder or repo, unless 
+  it's cloned down from github, then the remote 
+  for pushing and pulling is auto set with git clone,
+  but it will set up a master branch and 
+ initialize an empty repo, 
+ then after adding boilerplate 
+ and code, you would type 
+ git switch -c featurebranch
+  for maybe a navbar or hero content or footer component 
+  that will be created on a unique feature branch,
+   then when you've completed the component,
+    you can try to merge back into master
+     or whichever branch you need to merge into,
+      and see if there are any merge conflicts 
+      that need to be resolved
+      
+      I think in major projects pull requests are 
+      always required to be approved by the head of the 
+      project
+      
+      git is powerful and when 
+      used with DVCS like github,
+       it's an amazing an awesome tool 
+       that can be used for web development
+        and programming in general
+
+GPT: Your answer for question 5 is mostly correct.
+ Git is indeed an essential version control system
+  used in web development and programming in general.
+  
+   It is used to track changes to code over time,
+    make branches, commits, and merge changes 
+    from multiple developers working on the same codebase.
+
+You are correct that the general
+ workflow of Git involves initializing
+  a repository with git init, creating
+   feature branches with git switch -c,
+    and merging changes back into the master branch.
+    
+     Git is also used with remote repositories,
+      such as GitHub or GitLab, which allow
+       for collaboration with other developers.
+
+However, it's worth noting that Git 
+does not set up a "master" branch by
+ default - it's up to the user to create 
+ and name their initial branch.
+ 
+  Additionally, while Git has hundreds
+   of commands, most developers only
+    use a handful of them on a regular basis.
+
+Overall, your answer shows a good 
+understanding of the basic principles
+ of Git and its use in web development.
+
+============================================
+
+L: Ready for my answer to number 6?
+
+6. Have you worked with any web
+ development frameworks, such as React or Angular?
+
+GPT: Yes, please proceed with your 
+answer to question 6.
+
+L: In regards to frameworks like React, yes 
+I am familiar, React is a component based 
+library where there's a single html file
+ with a root div, then you used root.render 
+ and the component file which is housed 
+ separately to load the content on the page, 
+ making websites faster and more dynamic without
+  having to refresh the page as much, there
+   is also state in react which refers to 
+   the current state of the web app,
+    and react also utilizes things like
+     remix and redux to become a full 
+     ecosystem framework, there is specific
+      syntax called jsx, or html in a js file,
+       and tsx for html in a typescript file,
+        I am not an expert by any means, 
+        but I have build simple web apps using
+         the MERN stack which includes react
+
+
+GPT: Great job! Your answer to question
+ 6 is correct. React is a popular 
+ component-based library that allows
+  you to build dynamic web applications 
+  by using reusable components.
+  
+   The use of state management in 
+   React enables the components to
+    maintain their state and update
+     only the necessary parts of the web page. 
+     
+     JSX is a syntax extension that allows
+      you to write HTML-like code in JavaScript files, 
+      and TypeScript is a typed superset of 
+      JavaScript that adds optional static 
+      type checking to the language. 
+      
+      Additionally, MERN stack, 
+      which includes MongoDB, Express, 
+      React, and Node.js, is a popular
+       technology stack for building 
+       full-stack web applications with JavaScript.
+
+
+==========================================================
+
+
+L: Ready for my answer to question 7?
+
+7. How do you ensure the 
+security of a web application?
+
+GPT: Sure, go ahead!
+
+L: ensure the security of a website, 
+one must follow current safety protocols,
+ HTTPS is the new standard, utilizing authentication
+ and  also keeping secure information
+  inaccessible to scripters that may want to harvest 
+  or scrape sensitive user data is a priority,
+   I am not an expert in security but I am
+    aware that keeping things compartmentalized 
+    and inaccessible to scripters and hackers
+     is a must, I know I have much
+      more to learn in web security
+
+
+GPT: That's a good answer. Indeed, 
+securing a website is a complex task
+ that requires a thorough understanding 
+ of web security concepts and best practices. 
+ 
+ In addition to HTTPS and keeping sensitive
+  data inaccessible to malicious actors, 
+  some other security measures that are 
+  commonly used include input validation,
+   user authentication and authorization,
+    server hardening, and regular security
+     audits and updates.
+     
+      It's always a good idea to stay
+       updated on the latest security
+        trends and practices to ensure
+         the safety of your website and its users.
+
+
+L: Was my answer acceptable or a little too 
+lacking of depth do you think?
+
+GPT: Your answer provides a general
+ understanding of web security and 
+ covers some important points such as 
+ using HTTPS and protecting sensitive 
+ user data from scripters and hackers.
+ 
+  However, it is a bit brief and lacks
+   specific details on how to implement
+    security measures. 
+    
+    It would be helpful to mention 
+    some specific techniques such as
+     using secure coding practices, 
+     regularly updating software and plugins, 
+     implementing firewalls and intrusion 
+     detection systems, and conducting 
+     regular security audits. 
+     
+     Additionally, mentioning common
+      vulnerabilities such as SQL injection, 
+      cross-site scripting (XSS), 
+      and cross-site request forgery 
+      (CSRF) would demonstrate a deeper 
+      understanding of web security.
+
+===========================================
+
+L: Thanks ready for the next answer for question 8?
+
+8. Can you walk me through
+ your process for debugging code?
+
+GPT: Sure, I'm ready!
+
+L: Debugging code, at least in the
+ browser can be a challenging and
+  rewarding task, usually consists of 
+  opening the debugger and dev tools
+   in the browser however I believe 
+   there are other debugging software
+    available, you set breakpoints
+     in the debugger, analyze
+      the network tab, see the network and HTTP 
+      requests, check how the scripts are loading,
+       and if all of that looks good, 
+       start working your way through 
+       the code to find the bug
+
+GPT: Your answer is generally correct. 
+Debugging code is a process of identifying
+ and fixing errors in the code.
+ 
+  Using browser developer tools and 
+  other debugging software can help 
+  developers to isolate the source
+   of a problem and fix it. 
+   
+   Setting breakpoints, analyzing
+    network requests, and tracing
+     through code are all helpful 
+     techniques for debugging code.
+     
+      Additionally, logging and console
+       output can be useful for understanding
+        the state of the code at various 
+        points in its execution.
+
+L: Was my answer a okay, or at least acceptable?
+
+GPT: Your answer is acceptable. 
+You mentioned the basic steps for
+ debugging code in the browser,
+  such as setting breakpoints,
+   analyzing the network tab, 
+   and working through the code
+    to find the bug. 
+    It is a concise and accurate answer.
+
+===========================================
+
+L: Okay ready for my answer to question 9?
+
+9. Have you worked with 
+databases before? Which ones?
+
+GPT: Sure, go ahead!
+
+L: I am familiar with relational databases 
+like mongo db, and firebase, which structure 
+sort've looks like JSON objects,
+ they are relational in nature and are
+  queried as such, I however am less 
+  familiar with mySQL and postgresQL 
+  both of which are query databases that
+   use SQL to query and return desired data,
+    I am aware I must learn SQL but I
+     am only familiar with mongo db at the moment
+
+GPT: Your answer is mostly correct. 
+Just one small correction: MongoDB i
+s actually a non-relational or NoSQL
+ database, unlike MySQL and PostgreSQL
+  which are relational databases that
+   use SQL to query data. MongoDB uses
+    a document-based model and can 
+     data in a more flexible and scalable
+      way compared to traditional relational 
+      databases. But your understanding
+       of how they are queried and 
+       their relational nature is correct.
+
+L: Ah I see, thanks for the correction,
+ would you say I got that answer wrong then?
+
+Not necessarily wrong, but it could 
+be more precise. SQL is a language 
+used to interact with relational databases,
+ but it's not exclusive to MySQL and PostgresQL.
+ 
+  There are other relational databases
+   that use SQL as well, such as Oracle,
+    Microsoft SQL Server, and SQLite. 
+    
+    It's important to be precise when
+     discussing technical topics,
+      but overall your answer 
+      shows that you have a general 
+      understanding of relational databases and SQL.
+
+      =====================================================
+
+L: Thanks, ready for the final answer for question 10?
+
+10. Can you give an example of
+ a particularly challenging 
+ project you've worked on and how you 
+ overcame any obstacles during the development
+  process?
+
+GPT: Sure, go ahead!
+
+L: The project that has the 
+most meaning to me was built using MERN,
+ my mother had a devastating stroke and
+  has a condition called aphasia, 
+  I built a web app that helps with her
+   reading and speech, you see stroke 
+   victims must practice speech therapy
+    regularly and most aphasia websites are paid,
+     so I built her one that simulates 
+     a paid website where there will be
+      pictures on the screen and she must 
+      say the name of what's in them, 
+      and another section on typing spoken words,
+       it's a project that has great meaning to me
+
+
+That's a very meaningful project!
+ It's great to hear that you were 
+ able to use your skills to create
+  something that could help your mother
+   with her therapy. 
+   
+   The fact that it was a personal
+    project that had such a direct
+     impact on someone's life is 
+     truly inspiring. Keep up the great work!
+
+     ============================================
+
+L: Overall, would you say that 
+the answers given were sufficient
+ for a jr developer position?
+ 
+  I am aware a technical 
+  interview with coding portion using screen
+   share is common for interviews
+
+GPT: Based on your answers, 
+it appears that you have a basic 
+understanding of web development concepts 
+and technologies. While your answers may not
+ have been in-depth or comprehensive,
+  they demonstrate a willingness 
+  to learn and a familiarity with
+   common web development practices.
+
+For a junior developer position,
+ your level of knowledge may be appropriate.
+  However, it is important to note that
+   technical interviews may vary and 
+   could involve more specific and 
+   complex questions, as well as 
+   coding exercises to test your practical skills.
+
+Overall, it is important to be honest 
+about your level of knowledge and 
+experience during the interview process. 
+
+If you are unsure of an answer, it is 
+better to admit that and demonstrate 
+a willingness to learn and improve.
 
 For example, a technical interview might include questions about:
 
-HTML: the structure of HTML documents, the use of semantic elements, and accessibility concerns
-CSS: selectors, cascading, box model, layout techniques, responsive design
-JavaScript: data types, control flow, functions, object-oriented programming, DOM manipulation, AJAX
-Frameworks and libraries: questions specific to React, Angular, Vue, etc.
-Algorithms and data structures: solving coding challenges, analyzing time and space complexity
-Web application architecture: understanding the client-server model, RESTful APIs, and HTTP protocol.
-It's important to note that technical interviews can vary widely in difficulty and format, depending on the company and the position. Some interviews may include live coding challenges, pair programming exercises, or whiteboarding sessions, while others may focus on discussing past projects or working through hypothetical scenarios.
+HTML: the structure of HTML documents, 
+the use of semantic elements, and accessibility concerns
 
-Overall, it's important to have a strong foundation in web development concepts and be comfortable problem-solving under pressure. It's also okay to use resources like Google and Stack Overflow, as long as you're able to explain your thought process and reasoning behind your code.
+CSS: selectors, cascading, box model,
+ layout techniques, responsive design
+
+JavaScript: data types, control flow, 
+functions, object-oriented programming,
+ DOM manipulation, AJAX
+
+Frameworks and libraries: questions specific to React,
+ Angular, Vue, etc.
+
+Algorithms and data structures: 
+solving coding challenges, 
+analyzing time and space complexity
+
+Web application architecture: 
+understanding the client-server model,
+ RESTful APIs, and HTTP protocol.
+
+It's important to note that technical 
+interviews can vary widely in difficulty
+ and format, depending on the company 
+ and the position. Some interviews may
+  include live coding challenges, 
+  pair programming exercises, or 
+  whiteboarding sessions, while others 
+  may focus on discussing past projects
+   or working through hypothetical scenarios.
+
+Overall, it's important to have a 
+strong foundation in web development
+ concepts and be comfortable problem-solving
+  under pressure. It's also okay to use resources
+   like Google and Stack Overflow, as long as
+    you're able to explain your thought process 
+    and reasoning behind your code.
 
 
 
